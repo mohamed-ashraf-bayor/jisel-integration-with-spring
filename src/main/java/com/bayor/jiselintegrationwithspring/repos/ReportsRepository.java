@@ -8,6 +8,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.PagingAndSortingRepository;
+import org.springframework.data.repository.Repository;
 import org.springframework.data.repository.query.Param;
 
 import java.util.List;
@@ -15,7 +16,14 @@ import java.util.List;
 import static com.bayor.jiselintegrationwithspring.repos.ReportsRepository.HUMAN_RESOURCES;
 import static com.bayor.jiselintegrationwithspring.repos.ReportsRepository.MANAGEMENT;
 import static com.bayor.jiselintegrationwithspring.repos.ReportsRepository.SECURITY;
+import static com.bayor.jiselintegrationwithspring.repos.ReportsRepository.TOPLEVEL_KW;
 
+@Detach(profile = TOPLEVEL_KW,
+        rename = "CommonReportsRepository",
+        applyAnnotations = "@org.springframework.stereotype.Repository",
+        superInterfaces = Repository.class,
+        firstSuperInterfaceGenerics = {Employee.class, Long.class}
+)
 @Detach(profile = HUMAN_RESOURCES,
         rename = HUMAN_RESOURCES + "ReportsRepository",
         applyAnnotations = "@org.springframework.stereotype.Repository",
@@ -35,6 +43,8 @@ import static com.bayor.jiselintegrationwithspring.repos.ReportsRepository.SECUR
         firstSuperInterfaceGenerics = {Employee.class, Long.class}
 )
 public interface ReportsRepository {
+
+    String TOPLEVEL_KW = "(toplevel)"; // keyword used to tell jisel to detach the top-level interface
 
     String HUMAN_RESOURCES = "HumanResources";
     String SECURITY = "Security";

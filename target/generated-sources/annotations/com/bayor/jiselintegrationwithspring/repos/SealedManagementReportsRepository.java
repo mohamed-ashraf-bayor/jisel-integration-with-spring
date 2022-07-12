@@ -2,7 +2,7 @@ package com.bayor.jiselintegrationwithspring.repos;
 
 @javax.annotation.processing.Generated(
   value = "org.jisel.JiselAnnotationProcessor",
-  date = "2022-07-11T22:01:41.7997826-04:00",
+  date = "2022-07-12T08:14:52.1987889-04:00",
   comments = "version: 1.2"
 )
 public sealed interface SealedManagementReportsRepository extends SealedHumanResourcesReportsRepository permits _ReportsRepositoryFinalCass {
