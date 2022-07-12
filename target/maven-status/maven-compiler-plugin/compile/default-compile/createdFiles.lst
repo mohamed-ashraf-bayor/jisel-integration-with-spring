@@ -1,0 +1,11 @@
+com\bayor\jiselintegrationwithspring\repos\SealedManagementReportsRepository.class
+com\bayor\jiselintegrationwithspring\repos\ReportsRepository.class
+com\bayor\jiselintegrationwithspring\repos\detached\HumanResourcesReportsRepository.class
+com\bayor\jiselintegrationwithspring\entities\Employee.class
+com\bayor\jiselintegrationwithspring\JiselIntegrationWithSpringApplication.class
+com\bayor\jiselintegrationwithspring\repos\detached\SecurityReportsRepository.class
+com\bayor\jiselintegrationwithspring\repos\detached\ManagementReportsRepository.class
+com\bayor\jiselintegrationwithspring\repos\_ReportsRepositoryFinalCass.class
+com\bayor\jiselintegrationwithspring\repos\SealedReportsRepository.class
+com\bayor\jiselintegrationwithspring\repos\SealedHumanResourcesReportsRepository.class
+com\bayor\jiselintegrationwithspring\repos\SealedSecurityReportsRepository.class

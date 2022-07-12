@@ -1,0 +1,23 @@
+com.bayor.jiselintegrationwithspring.repos.ReportsRepository
+
+Generated Sealed Interfaces:
+	SealedReportsRepository
+	 - Children:
+		SealedHumanResourcesReportsRepository
+		SealedSecurityReportsRepository
+	SealedManagementReportsRepository
+	 - Children:
+		_ReportsRepositoryFinalCass
+	SealedHumanResourcesReportsRepository
+	 - Children:
+		SealedManagementReportsRepository
+	SealedSecurityReportsRepository
+	 - Children:
+		_ReportsRepositoryFinalCass
+
+Generated Detached Interfaces:
+	com.bayor.jiselintegrationwithspring.repos.detached.ManagementReportsRepository
+	com.bayor.jiselintegrationwithspring.repos.detached.SecurityReportsRepository
+	com.bayor.jiselintegrationwithspring.repos.detached.HumanResourcesReportsRepository
+
+
