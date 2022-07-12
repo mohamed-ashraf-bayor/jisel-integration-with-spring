@@ -5,12 +5,12 @@ Generated Sealed Interfaces:
 	 - Children:
 		SealedHumanResourcesReportsRepository
 		SealedSecurityReportsRepository
-	SealedManagementReportsRepository
-	 - Children:
-		_ReportsRepositoryFinalCass
 	SealedHumanResourcesReportsRepository
 	 - Children:
 		SealedManagementReportsRepository
+	SealedManagementReportsRepository
+	 - Children:
+		_ReportsRepositoryFinalCass
 	SealedSecurityReportsRepository
 	 - Children:
 		_ReportsRepositoryFinalCass

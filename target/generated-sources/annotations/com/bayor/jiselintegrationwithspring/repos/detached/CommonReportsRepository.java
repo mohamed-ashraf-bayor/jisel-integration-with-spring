@@ -2,7 +2,7 @@ package com.bayor.jiselintegrationwithspring.repos.detached;
 
 @javax.annotation.processing.Generated(
   value = "org.jisel.JiselAnnotationProcessor",
-  date = "2022-07-12T08:14:52.2456638-04:00",
+  date = "2022-07-12T08:45:01.5995028-04:00",
   comments = "version: 1.2"
 )
 @org.springframework.stereotype.Repository
