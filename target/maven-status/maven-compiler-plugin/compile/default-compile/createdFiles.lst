@@ -8,5 +8,6 @@ com\bayor\jiselintegrationwithspring\repos\detached\ManagementReportsRepository.
 com\bayor\jiselintegrationwithspring\repos\_ReportsRepositoryFinalCass.class
 com\bayor\jiselintegrationwithspring\repos\SealedReportsRepository.class
 com\bayor\jiselintegrationwithspring\repos\detached\CommonReportsRepository.class
+com\bayor\jiselintegrationwithspring\repos\notused\ReportsRepositoryBeforeApplyingJisel.class
 com\bayor\jiselintegrationwithspring\repos\SealedHumanResourcesReportsRepository.class
 com\bayor\jiselintegrationwithspring\repos\SealedSecurityReportsRepository.class
